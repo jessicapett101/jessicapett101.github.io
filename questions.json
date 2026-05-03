@@ -1,0 +1,63 @@
+
+{
+  "questions": [
+    {
+      "id": "month",
+      "text": "When are you planning your escape? 🗓️",
+      "options": ["Jan - Mar", "Apr - Jun", "Jul - Sep", "Oct - Dec"]
+    },
+    {
+      "id": "vibe",
+      "text": "What's your ideal vacation vibe? 🍹",
+      "options": ["Tropical & Beaches", "Snowy & Cozy", "Nature & Exploring", "City & Culture"]
+    },
+    {
+      "id": "transport",
+      "text": "How do you want to get there? ✈️",
+      "options": ["Plane", "Car", "Train", "Boat"]
+    },
+    {
+      "id": "budget",
+      "text": "What is your budget looking like? 💸",
+      "options": ["Shoestring (< $500)", "Mid-range ($500 - $1500)", "Treat Yo Self ($1500+)"]
+    }
+  ],
+  "destinations": [
+    {
+      "name": "Tulum, Mexico",
+      "month": ["Jan - Mar", "Oct - Dec"],
+      "vibe": "Tropical & Beaches",
+      "transport": ["Plane", "Boat"],
+      "budget": "Mid-range ($500 - $1500)",
+      "image": "https://images.unsplash.com/photo-1506461883276-594a12b11ac3?auto=format&fit=crop&w=600&q=80",
+      "description": "Perfect weather in the winter, stunning beaches, and incredible cenotes to explore!"
+    },
+    {
+      "name": "Banff, Canada",
+      "month": ["Jan - Mar", "Oct - Dec"],
+      "vibe": "Snowy & Cozy",
+      "transport": ["Plane", "Car", "Train"],
+      "budget": "Treat Yo Self ($1500+)",
+      "image": "https://images.unsplash.com/photo-1603348148810-09a8eb7b830d?auto=format&fit=crop&w=600&q=80",
+      "description": "World-class skiing, cozy cabins, and breathtaking mountain views."
+    },
+    {
+      "name": "Great Smoky Mountains, USA",
+      "month": ["Apr - Jun", "Jul - Sep"],
+      "vibe": "Nature & Exploring",
+      "transport": ["Car"],
+      "budget": "Shoestring (< $500)",
+      "image": "https://images.unsplash.com/photo-1546975490-a8d9bf1eb6f4?auto=format&fit=crop&w=600&q=80",
+      "description": "Incredibly affordable if you drive and camp! Beautiful hikes and wildlife."
+    },
+    {
+      "name": "Tokyo, Japan",
+      "month": ["Apr - Jun", "Oct - Dec"],
+      "vibe": "City & Culture",
+      "transport": ["Plane"],
+      "budget": "Treat Yo Self ($1500+)",
+      "image": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?auto=format&fit=crop&w=600&q=80",
+      "description": "Amazing food, endless shopping, and beautiful cherry blossoms or fall foliage."
+    }
+  ]
+}
